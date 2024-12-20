@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Universal Studios</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the existing CSS file -->
+    <link rel="stylesheet" href="styles2.css"> <!-- Link to the existing CSS file -->
+
+</head>
+<body>
+    <header class="header">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you!</p>
+        <nav class="top-nav">
+            <a href="index.html">Home</a>
+            <a href="park-attractions.html">Park Attractions</a>
+            <a href="movie-experiences.html">Movie Experiences</a>
+            <a href="dining.html">Dining</a>
+            <a href="tickets.html">Tickets</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="main-section">
+            <h2>Contact Form</h2>
+            <form action="mailto:example@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject"><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Universal Studios. All rights reserved.</p>
+    </footer>
+</body>
+</html>
